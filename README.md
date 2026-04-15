@@ -4,6 +4,8 @@
 This project implements a **Sudoku Solver** using the **Constraint Satisfaction Problem (CSP)** approach.  
 It solves standard 9×9 Sudoku puzzles using **backtracking search** with constraint checking and heuristic improvements.
 
+---
+
 ## ⚙️ Features
 - Backtracking search algorithm
 - Constraint checking (row, column, 3×3 box)
@@ -14,6 +16,8 @@ It solves standard 9×9 Sudoku puzzles using **backtracking search** with constr
   - Medium
   - Hard
   - Very Hard
+
+---
 
 ## 🧠 Algorithm Used
 
@@ -29,6 +33,7 @@ A number is only placed if:
 ### 3. MRV Heuristic
 The algorithm selects the cell with the **minimum number of possible valid values**, reducing search space and improving performance.
 
+---
 
 ## 📂 Input Format
 
@@ -51,6 +56,7 @@ Example:
 - Each line must contain exactly 9 digits
 - Total 9 lines per file
 
+---
 
 ## 🚀 How to Run
 
