@@ -63,35 +63,35 @@ Example:
 ### 1. Run the solver
 bash
 python sudoku_solver.py
-2. Ensure input files exist:
+### 2. Ensure input files exist:
 easy.txt
 medium.txt
 hard.txt
 veryhard.txt
 📊 Output
 
-For each puzzle, the program prints:
+### 3. For each puzzle, the program prints:
 
 Initial Sudoku board
 Solved board (if solution exists)
 Backtracking statistics:
 Number of calls
 Number of failures
-📈 Results Summary
+### 📈 Results Summary:
 Puzzle	Status
 Easy	Solved ✔
 Medium	Solved ✔
 Hard	Likely Solved ✔
 Very Hard	Possibly No Solution / Inconsistent ❌
-🧩 Key Learnings
+### 🧩 Key Learnings:
 Sudoku is a classic CSP problem
 Backtracking is effective for constraint-based problems
 Heuristics like MRV significantly improve performance
 Input consistency is critical for solvability
-👨‍💻 Author
+### 👨‍💻 Author:
 
 Muhammad Uzair Hussain 
 
-📜 License
+### 📜 License:
 
 This project is for educational purposes only.
